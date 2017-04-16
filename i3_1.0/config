@@ -176,7 +176,10 @@ client.background       #FFFFFF
 bindsym $mod+m bar mode toggle
 bar {
     # i3bar调用
+    i3bar_command i3bar -t
+    #height 28
     status_command conky -c $HOME/.config/i3/conkyrc_bar1.10
+    tray_output none
     # 显示位置
     position top
     # 是否隐藏
@@ -190,12 +193,12 @@ bar {
     colors {
         background #333333
         statusline #FFFFFF
-        #eparator  #3399FF
+	eparator  #3399FF
         # 工作区颜色         边框    背景    文字
         focused_workspace  #111111 #111111 #FFFFFF
         active_workspace   #FFFFFF #FFFFFF #FFFFFF
         inactive_workspace #333333 #333333 #FFFFFF
         urgent_workspace   #990000 #990000 #FFFFFF
-        #binding_mode       #990000 #990000 #FFFFFF
+        binding_mode       #990000 #990000 #FFFFFF
     }
 }
