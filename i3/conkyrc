@@ -18,6 +18,7 @@ TEXT
 { "full_text" : " ${cpu cpu0}%" , "color" : "\#8BC3E7" },
 { "full_text" : " ${mem}" , "color" : "\#B987D9" },
 { "full_text" : " ${fs_used_perc /}%" , "color" : "\#FF9D17" },
+{ "full_text" : " ${fs_used_perc /home}%" , "color" : "\#F3EA0C" },
 { "full_text" : " ${battery_percent}%" , "color" : "\#A4DC6A" },
 { "full_text" : " ${time %Y/%m/%d %a}" , "color" : "\#ff797b" },
 { "full_text" : " ${time %H:%M}" , "color" : "\#8BADF9" }
