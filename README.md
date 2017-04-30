@@ -6,3 +6,5 @@ pacman -S fcitx-im fcitx-configtool fcitx-gtk3 fcitx-gtk2 fcitx-qt4 fcitx-qt5
 yaourt fcitx-sogoupinyin fcitx fcitx-cloudpinyin
 
 fonts.conf在当前用户主目录下是.fonts.conf
+--------------
+安装的声音管理alsamixer，菜单dmenu
