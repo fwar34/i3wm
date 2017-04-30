@@ -7,4 +7,4 @@ yaourt fcitx-sogoupinyin fcitx fcitx-cloudpinyin
 
 fonts.conf在当前用户主目录下是.fonts.conf
 --------------
-安装的声音管理alsamixer，菜单dmenu
+安装的声音管理alsamixer，菜单dmenu，终端zsh，oh-my-zsh，xfce4-terminal,tmux
