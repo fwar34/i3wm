@@ -12,3 +12,6 @@ fonts.conf在当前用户主目录下是.fonts.conf
 xfce4-terminal设置字体为Dejavu Sans Mono Oblique，背景设置为背景图片，底纹滑动条调节透明度
 -----------------
 wifi链接用netctl，开机启动
+------------------------------------
+zsh相关配置
+安装zsh oh-my-zsh zsh-completions zsh-syntax-highlighting tmux-powerline autojump powerline
