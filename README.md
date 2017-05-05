@@ -17,3 +17,11 @@ zsh相关配置
 安装zsh oh-my-zsh zsh-completions zsh-syntax-highlighting tmux-powerline autojump powerline
 -----------------------
 挂载windows ntfs分区要安装ntfs-3g
+---------------------------------
+Linux字体文件放在/usr/share/font/，只要将字体文件拷贝到这里就可以了。
+这里示例安装Windows的所有字体。
+    1，新建文件夹，装Windows字体，方便管理。打开终端输入命令:mkdir win。
+    2，复制Windows下 的所有字体。cd命令切换到C盘挂载的目录，进入c:\windows\Fonts。使用cp命令复制字体：cp *.ttf *.TTF /home/username/win/。这       样就把Windows的字体复制到了主目录下的win目录里面。
+    3，安装字体。终端输入:mv /home/username/win/ /usr/share/font/。移动到Linux字体库中。
+    4，刷新系统即刻生效，输入命令：sudo fc-cache -fv。
+-----------------------------------------------
