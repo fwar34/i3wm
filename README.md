@@ -15,3 +15,5 @@ wifi链接用netctl，开机启动
 ------------------------------------
 zsh相关配置
 安装zsh oh-my-zsh zsh-completions zsh-syntax-highlighting tmux-powerline autojump powerline
+-----------------------
+挂载windows ntfs分区要安装ntfs-3g
